@@ -3,6 +3,8 @@ def say_hello (name)
 
 end
 
-print "enter your name"
-name = gets
-say_hello name
+
+
+names = ["david", "rupert", "mark"]
+names.each {|name| say_hello name}
+
